@@ -1,0 +1,2 @@
+rootProject.name='App_Confundatores_Schoenstatt'
+include ':app'

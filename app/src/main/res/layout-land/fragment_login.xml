@@ -1,0 +1,93 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@color/Backgroundcolor"
+    tools:context="com.example.app_confundatores_schoenstatt.UI.LoginFragment"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/iniciar_secion"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/editTextCorreo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="spread"/>
+
+
+        <EditText
+            android:id="@+id/editTextCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:autofillHints="no"
+            android:ems="10"
+            android:hint="@string/correo_electronico"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextClave"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_chainStyle="packed"/>
+
+        <EditText
+            android:id="@+id/editTextTextClave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/clave"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/btnIngresar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextCorreo" />
+
+        <Button
+            android:id="@+id/btnIngresar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:elevation="2dp"
+            android:padding="0dp"
+            android:text="@string/ingresar"
+            app:layout_constraintBottom_toTopOf="@+id/btnGenerar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextClave" />
+
+        <Button
+            android:id="@+id/btnGenerar"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="@dimen/fragment_vertical_margin"
+            android:layout_marginBottom="32dp"
+            android:elevation="2dp"
+            android:padding="0dp"
+            android:text="@string/no_tengo_cuenta_generar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnIngresar" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

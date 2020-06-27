@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">App Confundatores</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Esta es la pantalla principal y se puede poner cualquier imagen o logo</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="clave">Clave</string>
+    <string name="correo_electronico">Correo Electronico</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="iniciar_secion">Iniciar Secion</string>
+    <string name="no_tengo_cuenta_generar">No tengo cuenta. Generar una cuenta.</string>
+    <string name="crear_una_cuenta">Crear una Cuenta</string>
+    <string name="telefono">Telefono *</string>
+    <string name="nombre">Nombre *</string>
+    <string name="apellido">Apellido *</string>
+    <string name="d_n_i">D.N.I.* (SIN PUNTOS)</string>
+    <string name="los_datos_con_son_obligatorios">Los Datos con \'*\' son obligatorios.</string>
+    <string name="confirmar_su_clave">Confirmar su Clave *</string>
+    <string name="ingrese_su_clave">Ingrese su Clave *</string>
+    <string name="correo_electronico2">Correo Electronico *</string>
+</resources>
